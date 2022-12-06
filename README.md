@@ -1,2 +1,2 @@
 # led_ceiling_light
-Plafonier à LEDs
+Plafonier à LEDs 12V pour bateau, avec 2 puissances (puissance r
