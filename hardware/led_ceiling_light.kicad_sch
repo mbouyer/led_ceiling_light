@@ -947,7 +947,6 @@
     )
   )
 
-
   (junction (at 181.61 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 06353207-7cc0-49b7-a41b-526e68a91aaa)
   )
@@ -1317,10 +1316,13 @@
     (property "Value" "1M" (id 1) (at 108.9661 100.7622 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 110.49 99.06 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (id 2) (at 110.49 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 110.49 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "P/N" "pt10lv10-105a2020-s" (id 4) (at 110.49 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 740b09a2-8054-4006-b2d8-a79cc892ca36))
@@ -1480,10 +1482,13 @@
     (property "Value" "1M" (id 1) (at 101.8286 93.1422 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 100.33 91.44 0)
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (id 2) (at 100.33 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "P/N" " WW25WR300FTL " (id 4) (at 100.33 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e231bb61-c32e-4997-b6b2-a5e7f464ca7e))
@@ -1880,7 +1885,7 @@
       (reference "Q1") (unit 1) (value "BSS123") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/7fd0a2b4-542e-44c7-acbf-294bb4a0590c"
-      (reference "R1") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R1") (unit 1) (value "1M") (footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
     )
     (path "/c7222b6a-06a9-4042-b6f2-a18043608bdc"
       (reference "R2") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -1892,7 +1897,7 @@
       (reference "R4") (unit 1) (value "0.3Ω") (footprint "")
     )
     (path "/512ed214-cf7d-40c8-a2e8-0df6919047f4"
-      (reference "RV1") (unit 1) (value "1M") (footprint "")
+      (reference "RV1") (unit 1) (value "1M") (footprint "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical")
     )
     (path "/b09ac753-e1cb-48a2-a548-b47dc09b2ff9"
       (reference "U1") (unit 1) (value "AL8861") (footprint "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering")
