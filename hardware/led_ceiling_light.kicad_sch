@@ -1482,7 +1482,7 @@
     (property "Reference" "R1" (id 0) (at 101.8286 90.6053 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "976k" (id 1) (at 101.8286 93.1422 0)
+    (property "Value" "976K" (id 1) (at 101.8286 93.1422 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 100.33 91.44 0)
@@ -1891,7 +1891,7 @@
       (reference "Q1") (unit 1) (value "BSS123") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/7fd0a2b4-542e-44c7-acbf-294bb4a0590c"
-      (reference "R1") (unit 1) (value "976k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R1") (unit 1) (value "976K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/c7222b6a-06a9-4042-b6f2-a18043608bdc"
       (reference "R2") (unit 1) (value "976K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
