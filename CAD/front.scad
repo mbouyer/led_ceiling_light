@@ -26,7 +26,7 @@ module boite_ext(h = 20, h_o = 5) {
 
 module boite() {
     h_emp_pcb = h_support + h_space + h_pcb;
-    h_int = h_front - h_electro;
+    h_int = h_front - 3;
     difference() {
 	boite_ext(h = h_front);
 	// holes
@@ -45,7 +45,7 @@ module boite() {
 	translate([pcb_L / 2 + 8 / 2, 5, 0]) rotate([90, 0, 0])
 	    cube([3, 3, pcb_l], center = true);
 	translate([pcb_L / 2 + 8 / 2 + 3 / 2 - 10 / 2, -pcb_l / 2 + 5 + 10 / 2, 0])
-	    cube([10, 10, h_emp_pcb * 2], center = true);
+	    cube([10, 10, (h_emp_pcb + 5) * 2], center = true);
     }
 }
 
