@@ -1406,6 +1406,7 @@
     )
   )
 
+  (gr_rect locked (start 113.9 63.9) (end 186.1 106.1) (layer "Dwgs.User") (width 0.25) (fill none) (tstamp d34942b2-ba28-4d06-a9c4-85dc5482cb5b))
   (gr_arc (start 195 109) (mid 194.707107 109.707107) (end 194 110) (layer "Edge.Cuts") (width 0.1) (tstamp 1429733e-3471-41dc-b61b-3ccae3fdcb91))
   (gr_arc (start 101 110) (mid 100.292893 109.707107) (end 100 109) (layer "Edge.Cuts") (width 0.1) (tstamp 29791fa0-a2d7-45f1-9400-a21bca28cca9))
   (gr_rect (start 95 55) (end 200 115) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 41443d1c-c86b-4b08-87fd-9c5b9c26eac8))
