@@ -15,5 +15,7 @@ difference() {
 	    cube([pcb_L - taille_plots * 2, pcb_l + 1, h_space * 2], center = true);
 	translate([0, 0, h_support + h_space])
 	    cube([pcb_L + 1, pcb_l - taille_plots * 2, h_space * 2], center = true);
+	translate([0, 0, h_support])
+	    cube([pcb_L - taille_plots * 2, pcb_l - taille_plots * 2,
+		h_support * 2 + 1], center = true);
 }
-
