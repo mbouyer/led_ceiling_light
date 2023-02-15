@@ -26,7 +26,7 @@ module boite_ext(h = 20, h_o = 5) {
 
 module boite() {
     h_emp_pcb = h_support + h_space + h_pcb;
-    h_int = h_front - 3;
+    h_int = h_front - 2;
     difference() {
 	boite_ext(h = h_front);
 	// holes
@@ -39,6 +39,10 @@ module boite() {
 	// hole up to top, with 3mm wall
 	cube([pcb_L - taille_plots * 2, pcb_l + 1, h_int * 2], center = true);
 	cube([pcb_L + 1, pcb_l - taille_plots * 2, h_int * 2], center = true);
+	// hole for plexiglass
+	translate([0, 0, -(h_front+1)]) 
+		linear_extrude(height = h_front + 2)
+		    import(file="PCB.dxf", layer="plexi");
 	// cable space
 	translate([pcb_L / 2 + 8 / 2, 5, -3 / 2]) rotate([90, 0, 0])
 	    cylinder(h = pcb_l, d = 3, center = true);
