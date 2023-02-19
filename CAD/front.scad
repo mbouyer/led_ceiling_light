@@ -54,3 +54,9 @@ module boite() {
 }
 
 boite();
+// projection(cut=true) translate([0,0,15]) boite();
+// projection(cut=true) translate([0,0,15]) {
+// 	translate([0, 0, -(h_front+1)]) 
+// 		linear_extrude(height = h_front + 2)
+// 		    import(file="PCB.dxf", layer="plexi");
+//       }
