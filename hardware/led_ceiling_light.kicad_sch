@@ -1503,7 +1503,7 @@
     (property "Value" "2.7V" (id 1) (at 96.52 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SC-80_HandSoldering" (id 2) (at 100.33 100.33 0)
+    (property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering" (id 2) (at 100.33 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 100.33 0)
@@ -2073,7 +2073,7 @@
       (reference "D12") (unit 1) (value "SL04-GS08") (footprint "Diode_SMD:D_SMF")
     )
     (path "/591c7a48-6647-47f5-be47-c2508213f188"
-      (reference "D13") (unit 1) (value "2.7V") (footprint "Diode_SMD:D_SC-80_HandSoldering")
+      (reference "D13") (unit 1) (value "2.7V") (footprint "Diode_SMD:D_MiniMELF_Handsoldering")
     )
     (path "/bf06e978-418f-42d7-bbde-c8a97f9d162c"
       (reference "J1") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal")
